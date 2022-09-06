@@ -379,10 +379,20 @@
 "Assets/AssetsShop/HardLight2D/Demo/DemoScripts/MeshCopy.cs"
 "Assets/AssetsShop/HardLight2D/Demo/DemoScripts/PolyWobbler.cs"
 "Assets/AssetsShop/HardLight2D/Demo/DemoScripts/Speen.cs"
+"Assets/CollectHealth.cs"
+"Assets/Health.cs"
+"Assets/HealthBar.cs"
+"Assets/HealthTrigger.cs"
+"Assets/PlayerDamage.cs"
+"Assets/Scripts/BouncePad.cs"
 "Assets/Scripts/InputSystem/Controller.cs"
+"Assets/Scripts/Ladder.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAnimation.cs"
 "Assets/Scripts/Player/PlayerShoot.cs"
+"Assets/Scripts/Sprikes.cs"
+"Assets/TestShader.cs"
+"Assets/СhangesСolor.cs"
 -langversion:9.0
 
 /deterministic

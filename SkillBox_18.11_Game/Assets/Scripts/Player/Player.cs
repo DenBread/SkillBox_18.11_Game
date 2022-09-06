@@ -10,13 +10,17 @@ public class Player : MonoBehaviour
     private Controller _inputs;
     private Rigidbody2D _rb;
     private Vector3 _movementVector;
+    private bool _isGround;
+    [HideInInspector] public bool isLadder;
 
     [SerializeField] private PlayerShoot _playerShoot;
     [SerializeField] private PlayerAnimation _playerAnimation;
     [SerializeField] private SpriteRenderer _spriteRenderer;
 
-    [SerializeField] private float _speed;
-    [SerializeField] private float _jumpPower;
+    [SerializeField] private float _speed; // скорость передвижения по горизонтали
+    [SerializeField] private float _powerUp; // скорость перемещение по летницы
+    [SerializeField] private float _jumpPower; // сила прыжка
+
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private CapsuleCollider2D _capsuleCollider;
     
@@ -32,7 +36,7 @@ public class Player : MonoBehaviour
     }
 
     private void Awake()
-    {
+    { 
         _inputs = new Controller(); 
         _rb = GetComponent<Rigidbody2D>();
     }
@@ -50,28 +54,48 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        _rb.AddForce(Vector2.up * _jumpPower, ForceMode2D.Impulse);
+        if (_isGround)
+        {
+            _rb.AddForce(Vector2.up * _jumpPower, ForceMode2D.Impulse);
+        }
     }
 
     private void FixedUpdate()
     {
+        _isGround = Physics2D.OverlapArea(transform.position, new Vector2(transform.position.x, transform.position.y - 1f), _layerMask); // Проверка на косание земли
+        
+
         _movementVector = _inputs.Main.Move.ReadValue<Vector2>();
 
         Move();
         Flip();
 
-        bool check = Physics2D.OverlapArea(transform.position, new Vector2(transform.position.x, transform.position.y - 1f), _layerMask); // Проверка на косание земли
-        Debug.Log(check);
+        if (isLadder)
+        {
+            MoveLadder();
+        }
+
+        
     }
 
     /// <summary>
-    /// Передвижение игрока
+    /// Передвижение игрока по горизонтальной оси
     /// </summary>
     private void Move()
     {
-        _rb.AddForce(_movementVector * _speed, ForceMode2D.Force);
+        Vector3 vec = new Vector3(_movementVector.x, 0f);
+        _rb.AddForce(vec * _speed, ForceMode2D.Force);
         _playerAnimation.StateMove(_movementVector.x);
         
+    }
+
+    /// <summary>
+    /// Передвижения по лестницы
+    /// </summary>
+    public void MoveLadder()
+    {
+        Vector3 vec = new Vector3(0, _movementVector.y);
+        _rb.AddForce(vec * _powerUp, ForceMode2D.Force);
     }
 
     /// <summary>
@@ -81,11 +105,11 @@ public class Player : MonoBehaviour
     {
         if(_movementVector.x < 0)
         {
-            _spriteRenderer.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
         if( _movementVector.x > 0)
         {
-            _spriteRenderer.flipX = false;
+            transform.localScale = Vector3.one;
         }
     }
 }

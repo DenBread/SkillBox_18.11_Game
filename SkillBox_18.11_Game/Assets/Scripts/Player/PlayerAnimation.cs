@@ -6,8 +6,8 @@ public class PlayerAnimation : MonoBehaviour
 {
     private static readonly int Idle = Animator.StringToHash("PlayerIdle");
     private static readonly int Walk = Animator.StringToHash("PlayerWalk");
-    private static readonly int Jump = Animator.StringToHash("PlayerJump"); // Добавить анимацию
-    private static readonly int Fall = Animator.StringToHash("PlayerFall"); // Add animation fall
+    private static readonly int Jump = Animator.StringToHash("PlayerJump"); 
+    private static readonly int Fall = Animator.StringToHash("PlayerFall"); 
     private static readonly int Shoot = Animator.StringToHash("PlayerShoot");
 
     public int State { private get; set; }

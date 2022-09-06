@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Backgound
+    uniqueID: 1882098125
+    locked: 0
+  - name: Platforma
+    uniqueID: 2922983969
+    locked: 0
+  - name: Player
+    uniqueID: 364499003
+    locked: 0
+  - name: UI
+    uniqueID: 2790933447
+    locked: 0

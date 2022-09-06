@@ -12,6 +12,6 @@ public class PlayerShoot : MonoBehaviour
     public void ShootBullet()
     {
         GameObject bullet = Instantiate(_bullet, _pointBullet.position, Quaternion.identity);
-        bullet.GetComponent<Rigidbody2D>().AddForce(Vector2.right * _power, ForceMode2D.Impulse);
+        bullet.GetComponent<Rigidbody2D>().AddForce(transform.TransformVector(Vector2.right) * _power, ForceMode2D.Impulse);
     }
 }
