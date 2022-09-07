@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class EnemySlime : MonoBehaviour
 {
-    private Rigidbody2D _rb;
-    private float _powerJump;
-    private Transform _playerPoint;
-
-
     [Header("For Petrolling")]
     [SerializeField] private float _moveSpeed;
     private float moveDirection = -1f;
@@ -21,22 +16,56 @@ public class EnemySlime : MonoBehaviour
     private bool _checkingWall;
 
     [Header("For JumpAttacting")]
-    [SerializeField] float _jumpHeight;
+    [SerializeField] private float _jumpHeight;
+    [SerializeField] private Transform _player;
+    [SerializeField] private Transform _groundCheck;
+    [SerializeField] private Vector2 _boxSize;
+    private bool _isGrounded;
+
+    [Header("For SeeingPlayer")]
+    [SerializeField] private Vector2 _lineOfSite;
+    [SerializeField] private LayerMask _playerLayer;
+    private bool _canSeePlayer;
 
     [Header("Other")]
     private Rigidbody2D _enemyRB;
+    [SerializeField] float _timeWaitJump;
+    private float _saveTime;
 
     private void Start()
     {
         _enemyRB = GetComponent<Rigidbody2D>();
-        }
+        _saveTime = _timeWaitJump;
+    }
 
 
     private void FixedUpdate()
     {
         _checkingGround = Physics2D.OverlapCircle(_groundCheckPoint.position, _circleRadius, _groundLayer);
         _checkingWall = Physics2D.OverlapCircle(_wallChackPoint.position, _circleRadius, _groundLayer);
-        Petrolling();
+        _isGrounded = Physics2D.OverlapBox(_groundCheck.position, _boxSize,0, _groundLayer);
+        _canSeePlayer = Physics2D.OverlapBox(transform.position, _lineOfSite, 0, _playerLayer);
+        Debug.Log(_canSeePlayer);
+        
+        if(!_canSeePlayer && _isGrounded)
+        {
+            Petrolling();
+        }
+        else if (_canSeePlayer)
+        {
+            FlipTowardsPlayer();
+
+
+            if(_timeWaitJump> 0)
+            {
+                _timeWaitJump -= Time.deltaTime;
+            }
+            else
+            {
+                JumpAttack();
+                _timeWaitJump = _saveTime;
+            }
+        }
     }
 
     private void Petrolling()
@@ -55,6 +84,29 @@ public class EnemySlime : MonoBehaviour
         _enemyRB.velocity = new Vector2(_moveSpeed * moveDirection, _enemyRB.velocity.y);
     }
 
+    private void JumpAttack()
+    {
+        float distanceFromPlayer = _player.position.x - transform.position.x;
+
+        if (_isGrounded)
+        {
+            _enemyRB.AddForce(new Vector2(distanceFromPlayer, _jumpHeight), ForceMode2D.Impulse);
+        }
+    }
+
+    private void FlipTowardsPlayer()
+    {
+        float playerPosition = _player.position.x - transform.position.x;
+        if(playerPosition < 0 && !facingLeft)
+        {
+            Flip();
+        }
+        else if(playerPosition > 0 && facingLeft)
+        {
+            Flip();
+        }
+    }
+
     private void Flip()
     {
         moveDirection *= -1;
@@ -67,5 +119,9 @@ public class EnemySlime : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawSphere(_groundCheckPoint.position, _circleRadius);
         Gizmos.DrawSphere(_wallChackPoint.position, _circleRadius);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawCube(_groundCheck.position, _boxSize);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(transform.position, _lineOfSite);
     }
 }
