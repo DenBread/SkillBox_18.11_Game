@@ -1,0 +1,579 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662656857207390, "dur": 21108896, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656857209049, "dur": 39012, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656857248257, "dur": 61600, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656857309915, "dur": 769377, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656858079294, "dur": 20227011, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656878306333, "dur": 9952, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656895254578, "dur": 1191463, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656895255024, "dur": 3722, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656895258749, "dur": 45016, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656895303766, "dur": 780605, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656896084374, "dur": 360349, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656896444725, "dur": 1316, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656896446527, "dur": 43, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662656895798554, "dur": 265819, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656895799767, "dur": 81391, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656896033950, "dur": 8862, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656896042822, "dur": 21524, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656896044182, "dur": 16973, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656896070854, "dur": 1960, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662656896069633, "dur": 3222, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656896446668, "dur": 333, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662656896130946, "dur":2189, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896133145, "dur":784, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662656896133976, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662656896133999, "dur":687, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662656896134818, "dur":2595, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896137413, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896426965, "dur":267, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427232, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427252, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427256, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427266, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427268, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427280, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427282, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427291, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427293, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427302, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427304, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427315, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427317, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427327, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427330, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427339, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427363, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896427384, "dur":4304, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662656896134954, "dur":2469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896137426, "dur":10481, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896147928, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662656896147938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896151540, "dur":2053, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662656896153598, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662656896153637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896154067, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662656896158629, "dur":1269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662656896159903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896159910, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662656896162228, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662656896162972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896162982, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662656896166200, "dur":212719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662656896378932, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662656896378943, "dur":47945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662656896426909, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1662656896426912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896135055, "dur":2375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896137431, "dur":10496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896147930, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662656896148359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896157930, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662656896161148, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662656896161214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896161342, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662656896164866, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1662656896164924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896164933, "dur":7271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1662656896172226, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896172409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896173657, "dur":11291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896184974, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896186354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896186365, "dur":9162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896195547, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896196398, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896196409, "dur":10109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896206549, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896207236, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896207248, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896213828, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896214910, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896214922, "dur":8029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896222992, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896223239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896223250, "dur":10738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896234028, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896234630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896234640, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896240332, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896241053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896241064, "dur":6104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896247191, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896248081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896248089, "dur":9075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896257219, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896257782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896257791, "dur":8640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896266467, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896266742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896266749, "dur":12164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896278940, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896279129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896279136, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896284477, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896284680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896284688, "dur":7356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896292118, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896293338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896293345, "dur":13591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896307234, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896307796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896307807, "dur":13933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896321758, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896321993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896321998, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896328828, "dur":31670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896360507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896360517, "dur":12684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662656896373247, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662656896373280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662656896373295, "dur":11476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662656896384796, "dur":42155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896135098, "dur":2339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896137437, "dur":10487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896147928, "dur":1774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662656896150110, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896153817, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662656896159190, "dur":3164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662656896162358, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896162372, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662656896166852, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1662656896167716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896167722, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1662656896171958, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896172243, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896173597, "dur":11396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896185020, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896185697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896186351, "dur":7113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896193492, "dur":1649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896195686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896195698, "dur":5632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896201371, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896202214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896202220, "dur":7174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896209466, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896210170, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896210726, "dur":8122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896218871, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896219437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896219447, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896227844, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896228197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896228208, "dur":6778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896235010, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896235647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896235656, "dur":6180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896241869, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896242624, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896242638, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896247864, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896248672, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896248686, "dur":6606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896255345, "dur":1445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896257237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896257253, "dur":8266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896265563, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896266457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896266466, "dur":10005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896276497, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896276730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896276738, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896282108, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896282346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896282355, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896285949, "dur":1469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896287424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896287435, "dur":12426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896299901, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896300552, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896300569, "dur":6614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896307211, "dur":16326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896323543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896323556, "dur":14705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896338290, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896338797, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896338813, "dur":8905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896347745, "dur":5425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896353178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896353186, "dur":26341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662656896379555, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662656896379578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662656896379584, "dur":5804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662656896385584, "dur":41357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896135131, "dur":2312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896137443, "dur":10479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896147929, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662656896148013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896154089, "dur":8369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1662656896162480, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662656896162525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896162532, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1662656896166350, "dur":11335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662656896177701, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896177715, "dur":7781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662656896185521, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896186536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896186541, "dur":6614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896193175, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896194013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896194022, "dur":6748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896200799, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896202469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896202476, "dur":7979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896210580, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896211296, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896211307, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896218371, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896218702, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896218720, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896225219, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896225775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896225784, "dur":7396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896233206, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896233967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896233979, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896238009, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896238352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896238357, "dur":6687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896245073, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896246239, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896246248, "dur":4548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896250824, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896251903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896251913, "dur":5958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896257901, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896258630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896258641, "dur":6745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896265422, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896266020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896266029, "dur":8236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896274292, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896274460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896274468, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896280429, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896280622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896280630, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896285958, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896286196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896286205, "dur":6447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896292679, "dur":4651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896297336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896297343, "dur":13025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896310408, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896310801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896310809, "dur":12747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896323581, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896323903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896323914, "dur":10827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896334772, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896335159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896335170, "dur":10638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896345841, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896346142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896346153, "dur":6200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896352386, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896352591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896352599, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662656896359198, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662656896359216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896359235, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662656896364627, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662656896364785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896364790, "dur":17057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662656896381881, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662656896381913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662656896381930, "dur":6479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662656896388433, "dur":38505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896135168, "dur":2282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896137451, "dur":10469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896147928, "dur":1126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662656896149058, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896154344, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1662656896160331, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662656896160425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896161218, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662656896165027, "dur":4544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896169577, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896170349, "dur":7866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896178257, "dur":2711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896180974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896180983, "dur":5388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896186411, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896187232, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896187242, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896193400, "dur":1473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896194880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896194889, "dur":7469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896202389, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896202647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896202652, "dur":5895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896208570, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896208824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896208834, "dur":6087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896214952, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896215890, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896215902, "dur":6568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896222507, "dur":1934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896224661, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896224713, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896229461, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896229944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896229956, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896235107, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896235278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896235288, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896241306, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896241476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896241484, "dur":6259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896247778, "dur":1715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896249507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896249517, "dur":12586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896262144, "dur":1108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896263261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896263271, "dur":6154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896269462, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896269671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896269680, "dur":8347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896278063, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896278296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896278304, "dur":6210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896284536, "dur":1280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896285888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896285897, "dur":7357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896293278, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896293475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896293481, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896303318, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896303604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896303612, "dur":11710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896315351, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896315910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896315919, "dur":6826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896322772, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896322989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896322999, "dur":12201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896335231, "dur":17977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896353212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896353218, "dur":14801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662656896368578, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1662656896368720, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662656896368739, "dur":16233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1662656896384991, "dur":41951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896135207, "dur":2252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896137460, "dur":10469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896147930, "dur":1311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662656896149245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896153783, "dur":5956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662656896159774, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662656896159834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896159847, "dur":12094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662656896171972, "dur":4902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896176883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896177138, "dur":8103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896185261, "dur":1407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896186675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896186681, "dur":6863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896193562, "dur":1423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896194989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896195414, "dur":6493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896201941, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896202213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896202220, "dur":6281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896208529, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896209432, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896209445, "dur":9333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896218810, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896219806, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896219818, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896227108, "dur":1179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896228293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896228300, "dur":9685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896238011, "dur":1788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896239809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896239927, "dur":6429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896246382, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896247748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896247772, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896254205, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896254664, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896254742, "dur":9621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896264409, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896264682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896264693, "dur":7305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896272031, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896272368, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896272383, "dur":6443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896278853, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896279057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896279067, "dur":7304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896286392, "dur":3577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896289984, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896290003, "dur":16616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896306672, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896306935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896306946, "dur":14513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896321521, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896321814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896321820, "dur":12519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896334372, "dur":2973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896337352, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896337361, "dur":10391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896347769, "dur":5472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896353245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896353251, "dur":9998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662656896363276, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662656896363301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662656896363309, "dur":40323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662656896403664, "dur":23298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896135258, "dur":2208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896137466, "dur":10482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896147949, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1662656896148234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896155661, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1662656896160684, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662656896161421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896161427, "dur":4240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662656896165694, "dur":45718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896211416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896211502, "dur":23279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896235433, "dur":1682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896237122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896237131, "dur":9522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896246675, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896246869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896246877, "dur":9025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896255937, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896257359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896257365, "dur":9254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896266741, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896267149, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896267197, "dur":10857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896278085, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896278342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896278348, "dur":6379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896284756, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896284952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896284959, "dur":6312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896291308, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896292921, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896292932, "dur":9588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896302543, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896302829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896302840, "dur":12859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896315721, "dur":1297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896317029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896317040, "dur":10649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896327711, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896328422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896328432, "dur":10437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896338890, "dur":1196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896340097, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896340114, "dur":8768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896348904, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/HardLight2D.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896349060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896349065, "dur":6618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/HardLight2D.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896355711, "dur":1353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896357074, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896359306, "dur":8573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662656896368569, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1662656896368997, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896369006, "dur":13143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1662656896382190, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662656896382408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662656896382419, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662656896388209, "dur":38734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896135267, "dur":2205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896137472, "dur":10587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896148060, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662656896148113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896154370, "dur":4515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662656896158904, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662656896158943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896158967, "dur":5415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662656896164411, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1662656896164484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896164494, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1662656896168403, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1662656896168457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896168819, "dur":19336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1662656896188377, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896188630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896188638, "dur":6960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896195619, "dur":820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896196444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896196452, "dur":7212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896203703, "dur":1962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896206166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896206183, "dur":7560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896213780, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896214013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896214380, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896221384, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896221709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896221722, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896226596, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896227320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896227329, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896232296, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896233290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896233300, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896237995, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896238240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896238250, "dur":7656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896245928, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896246495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896246501, "dur":5522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896252048, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896252809, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896252823, "dur":7162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896260014, "dur":1337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896261361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896261375, "dur":5657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896267056, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896267666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896267674, "dur":10514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896278226, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896278438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896278443, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896287249, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896288006, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896288015, "dur":6480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896294522, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896294852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896294861, "dur":11767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896306673, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896307047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896307053, "dur":10623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896317706, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896317905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896317918, "dur":9575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896327523, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896327782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896327789, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896337778, "dur":3970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896341760, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896341776, "dur":10737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896352533, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/Managed/AllIn1SpriteShaderAssembly.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896352706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896352711, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/Managed/AllIn1SpriteShaderAssembly.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662656896359014, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1662656896359215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896359561, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1662656896364542, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1662656896364570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896364577, "dur":10012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1662656896374635, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/SkillBox_18.11_Game_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1662656896374679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662656896374691, "dur":10247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/SkillBox_18.11_Game_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1662656896384960, "dur":41979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662656896436133, "dur":4404, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662656896447074, "dur": 784, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662656896446504, "dur": 1509, "ph": "X", "name": "Write chrome-trace events", "args": {} },
